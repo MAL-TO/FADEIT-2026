@@ -1,6 +1,5 @@
 # A BERT-Based System for Multi-Label Fallacy Detection in Italian Social Media
-
-This repository contains code to train and evaluate transformer-based models for **multi-label classification** of fallacies.  
+This repository contains code to train and evaluate transformer-based models for **multi-label classification** of fallacies developed by MALTO for FADE-IT @EVALITA 2026.  
 It supports two workflows:
 
 1. **Internal evaluation**: train on train split, validate on val split, evaluate on test split (with two annotator label sets).
@@ -125,5 +124,6 @@ The output file is a TSV (e.g., `submission.tsv`) with the same columns as the i
 The file is saved either at the path you provide in `--out_tsv` or inside the run folder if you provide a filename only.
 
 ---
+
 
 
