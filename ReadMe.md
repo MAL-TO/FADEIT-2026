@@ -112,8 +112,8 @@ python train.py --mode competition --model xlm-roberta --loss focal --competitio
 
 Competition mode uses *full training* JSON files only:
 
-* `original_full` → `competition_data/train_full_original.json`
-* `augmented_full` → `competition_data/train_full_augmented.json`
+* `original_full` → `train_full_original.json`
+* `augmented_full` → `train_full_augmented.json`
 
 ### Output
 
@@ -125,3 +125,4 @@ The output file is a TSV (e.g., `submission.tsv`) with the same columns as the i
 The file is saved either at the path you provide in `--out_tsv` or inside the run folder if you provide a filename only.
 
 ---
+
